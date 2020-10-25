@@ -22,6 +22,5 @@
     "serverless-ignore": "0.1.5",
     "serverless-rack": "1.0.5"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }

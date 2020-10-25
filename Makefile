@@ -20,4 +20,4 @@ logs:
 	awslogs get /aws/lambda/pact-broker-serverless-dev-api --profile=${AWS_PROFILE_NAME} 
 
 deploy:
-	sls deploy -v
+	AWS_SDK_LOAD_CONFIG=1 sls deploy -v
